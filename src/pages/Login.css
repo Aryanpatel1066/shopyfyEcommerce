@@ -50,7 +50,7 @@ h1{
  }
  .eye-icon.strike{
    text-decoration: line-through;
-   background-color: red;
+   /* background-color: red; */
    /* position:absolute;
     right: 500px; */
    /* top:24%; */

@@ -65,6 +65,7 @@ export default function Header() {
       </nav>
       {/* make hamberger menu for responsive */}
       <div className={`${menuOpen ? "slider" : "none"}`}>
+        <div className="slider2">
         <button className="hamburgerBtn2" onClick={toggleMenu}>
           <i id="hamburgerIcon2" className="fa-solid fa-xmark"></i>
         </button>
@@ -86,6 +87,7 @@ export default function Header() {
         <NavLink className="links l2" to="/login">
           <i className="fa-solid fa-user fa-xl"></i>
         </NavLink>
+        </div>
       </div>
       
     </>

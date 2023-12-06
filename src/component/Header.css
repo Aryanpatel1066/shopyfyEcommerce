@@ -15,7 +15,7 @@ nav {
   height: 75px;
   background-color: var(--backgroundcolor);
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   top:0;
  }
 nav .navLogo {
@@ -55,7 +55,10 @@ nav .navLogo {
    padding: 5px 0;
   text-decoration: none;
 }
- 
+ .slider2{
+  /* background-color: red; */
+  z-index: 2;
+ }
  
 @media (max-width: 760px) {
   .navIcons {
@@ -112,6 +115,7 @@ nav .navLogo {
   position: absolute;
   right: 0;
   padding: 2rem;
+  z-index:5;
 }
 
 .searchBox2 {

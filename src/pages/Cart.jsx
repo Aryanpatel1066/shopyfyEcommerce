@@ -56,7 +56,7 @@ export default function Cart() {
 
   return (
     <>
-      <h1 className="cartHeading">cart{cart.length}</h1>
+      <h1 className="cartHeading">cart {cart.length} </h1>
       <div className="cartEmptyContainer">
         {cart.length <= 0 && (
           <div>
@@ -128,7 +128,7 @@ export default function Cart() {
           </div>
         </div>
 
-        {cart.length > 0 && (
+     <div>   {cart.length > 0 && (
           <div className="cartTotalPriceContainer">
             <hr />
             <h1 className="priceDetailsHeading">Price Details</h1>
@@ -185,7 +185,7 @@ export default function Cart() {
             <hr />
           </div>
         )}
-      </div>
+      </div></div>
     </>
   );
 }
