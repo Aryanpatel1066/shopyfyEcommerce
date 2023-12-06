@@ -1,0 +1,188 @@
+header {
+  margin: 0 1rem;
+  margin-top: 6rem;
+}
+.headingImg {
+  max-width: 100%;
+  height: auto;
+  /* border:2px solid red; */
+}
+
+.category {
+  /* border:2px solid greenyellow; */
+  margin: 0 1rem;
+  display: flex;
+  gap: 40px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+.categoryCard {
+  width: 370px;
+  height: 285px;
+  /* border:2px solid palevioletred; */
+  display: flex;
+  justify-content: space-around;
+}
+.categoryImg {
+  height: auto;
+  width: 90%;
+  margin: 5px;
+}
+.categoryDescription {
+  width: 100%;
+  height: 210px;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+.categoryHeader {
+  font-weight: 800;
+  text-align: left;
+  font-size: 1.1rem;
+}
+.categoryCollecton {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #808080;
+  margin: 2rem 0rem;
+}
+.categoryCollectionDescription {
+  font-weight: 400;
+  color: #808060;
+}
+.categoryCard:hover {
+  box-shadow: 0px 0px 10px #808080;
+  cursor: pointer;
+}
+.categoryHeader:hover,
+.categoryCollecton:hover,
+.categoryCollectionDescription:hover {
+  cursor: auto;
+}
+@media (min-width: 400px) {
+}
+
+/* *********** desing summer heading */
+
+.summerSale {
+  width: 100%;
+  height: auto;
+  background-image: url("https://glamour-ecommerce.vercel.app/static/media/summer.482f07ca2d2dd809285c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.summerSaleHeadingBlink {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #5a189a;
+  animation: blink 2s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.salesContent {
+  width: 285px;
+  height: 193px;
+  margin: 64px;
+  /* border: 2px solid gray; */
+}
+.summerSaleButtone {
+  width: 113px;
+  height: 41px;
+  padding: 3px;
+  margin: 0 76px;
+  background-color: #5a189a;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+}
+.summerSaleButtone:hover {
+  cursor: pointer;
+}
+@media (max-width: 340px) {
+  .summerSale {
+    text-align: left;
+    margin-top: 1rem;
+   }
+  .summerSaleHeadingBlink {
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .salesContent {
+    margin: 0 10px;
+  }
+  .footer,.header-footer,.descrip-footer,.descrip-footer-like{
+    text-align:center;
+  }
+  .header-row,.header-row.two{
+    margin:1rem 5rem
+  }
+}
+
+
+
+.shippingArea {
+    width: 100%;
+    height: 150px;
+    /* margin: 1rem 4rem; */
+    /* border:2px solid green; */
+    /* margin:1rem 0; */
+    display: flex;
+    justify-content: space-between;
+   }
+  .shippingArea .shippingAreaIconBox i {
+    border-radius: 50%;
+    border: 2px solid #5a189a;
+    /* padding: 1rem 0; */
+    width:50px;
+    height: 50px;
+    color:#5a189a;
+    padding:1rem 0.2rem;
+    }
+  .iconDescription {
+    font-weight: 600;
+  }
+  .shippingAreaIconBox {
+    width: 200px;
+    height: 100px;
+    /* border:2px solid pink; */
+    text-align: center;
+  }
+  
+  @media  (max-width:500px) {
+    .shippingArea{
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+  .card{
+    color:#808080;
+    text-decoration: none;
+  }

@@ -1,0 +1,105 @@
+main{
+    margin:10rem 0;
+    
+}
+h1{
+    text-align:  center;
+}
+   form{
+    /* background-color: aquamarine; */
+    /* height: 200px; */
+    max-width:400px;
+    border-radius: 10px;
+    /* margin:20px auto; */
+    box-shadow: 0 5px 15px rgba(0,0,0,.35);
+    margin:20px auto;
+  }
+   #inputEmail{
+    margin-left: 1.9rem;
+   }
+  form label input{
+        padding:0.5rem;
+        margin:1rem ;
+        width:70%;
+        border-radius: 5px;
+        border:1px solid black;
+  }
+ .login{
+    width: 80%;
+    height: 40px;
+    margin:1rem 3rem;
+    background-color: #7e22ce;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size: 1.1rem;
+    /* margin:1rem 6rem;
+    text-align:  center; */
+ }
+ .login:hover{
+   opacity: 0.5;
+ }
+ .newAccountLink{
+    text-decoration: none;
+    color:blue;
+    margin:0 13rem;
+    font-size: 1.1rem;
+ }
+ .newAccountLink:hover{
+    color:#7e22ce;
+ }
+ .eye-icon.strike{
+   text-decoration: line-through;
+   background-color: red;
+   /* position:absolute;
+    right: 500px; */
+   /* top:24%; */
+   text-align:  center;
+
+  }
+ .eye-icon{
+   background-color:none;
+   border:none;
+ margin-left: 340px;
+ position: relative;
+ bottom: 50px;
+     /* top:20px; */
+   font-size: 1.1rem;
+ }
+ .firstInput{
+  position: relative;
+  left: 17px;
+ }
+ /* @media  (max-width:1100px) {
+    .form{
+      margin:20px 10px;
+    }
+ } */
+ @media (max-width:580px){
+  .login{
+    margin:12px;
+  }
+  .outerFormContainer{
+    margin:20px 4px;
+    /* background-color: orange; */
+    position: relative;
+    left:0
+   }
+   form{
+    /* background-color: pink; */
+    margin:20px 10;
+   }
+   /* body{
+    background-color: red;
+   } */
+ }
+ @media  (max-width:385px) {
+  .eye-icon{
+    right:100px
+  }
+ }
+ @media  (max-width:275px) {
+  .eye-icon{
+    right: 160px;
+  }
+ }

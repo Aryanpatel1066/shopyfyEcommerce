@@ -1,0 +1,14 @@
+.wishlistContainer{
+    margin-top:6rem;
+  }
+ .wishlistHeading{
+    text-align: center;
+ }
+ .wishlistCardContainer{
+    /* border:2px solid red; */
+    position: absolute;
+    left:40%; 
+    margin:2rem 0;
+}
+#wishlist{
+ }

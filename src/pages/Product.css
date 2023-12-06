@@ -1,0 +1,277 @@
+:root {
+  --starcolor: rgb(250, 204, 21);
+  --fontcolor: #808080;
+  --offpricecolor: #008000;
+}
+.main2 {
+  margin-top: 6rem;
+  /* border:2px solid green; */
+  height: auto;
+  width: 100%;
+  
+  /* display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+  text-decoration: none;
+}
+.productImg {
+  height: 260px;
+  /* width:220px; */
+  width: 100%;
+  text-decoration: none;
+}
+.outerProductContainer {
+  width: 243px;
+  height: auto;
+  /* border:2px solid greenyellow; */
+  margin: 9px 0;
+  box-shadow: 0 0 9px var(--fontcolor);
+  /* text-align: center; */
+  color: #808080;
+}
+ .outerProductContainer:hover{
+  box-shadow: 0 0 15px var(--fontcolor);
+ }
+.outerProductContainer.likes #wishlist {
+  color: #ff0000;
+  
+}
+.outerProductContainer:hover {
+  cursor: pointer;
+}
+.headingRetingBox {
+  width: 100%;
+  height: auto;
+  /* border:2px solid purple; */
+  padding: 0 6px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.test{
+  /* border:2px solid pink; */
+  color:black
+}
+.retingBox {
+  /* border:2px solid red; */
+  height: 40px;
+  width: 60px;
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 4px;
+  text-decoration: none;
+}
+.linkgo {
+  text-decoration: none;
+}
+.retingBox .reting {
+  width: 50%;
+  /* border: 2px solid blueviolet; */
+}
+#retingStar {
+  width: 50%;
+  /* border: 2px solid brown; */
+  color: var(--starcolor);
+}
+.title {
+  margin: 5px 14px;
+  text-decoration: none;
+}
+
+.priceContainer {
+  /* border:2px solid rgb(226, 223, 43); */
+  display: flex;
+  justify-content: space-around;
+  /* gap: 5px; */
+  font-size: 1.1em;
+  height: auto;
+  text-align: center;
+  /* padding: 0 20px; */
+ }
+.mrpPrice .heilightmrpPrice {
+  font-weight: 900;
+}
+.cancelPrice .strikeCancelPrice {
+  text-decoration: line-through;
+  color: var(--fontcolor);
+}
+.add-to-cart {
+  height: 38px;
+  width: 220px;
+  background-color: #5a189a;
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.off {
+  /* border:1px solid slateblue; */
+  color: var(--offpricecolor);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.loader {
+  width: 200px;
+  height: 200px;
+  /* background-color: black; */
+  border: 10px solid #ddd;
+  border-radius: 50%;
+  border-top: 10px solid #5a189a;
+
+  animation: loader 1s infinite;
+}
+@keyframes loader {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.categorylist {
+  /* border:2px solid red; */
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+  color: #5a189a;
+  flex-wrap: wrap;
+}
+.categorylist div {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.categorylist div:hover {
+  cursor: pointer;
+}
+
+.sortOptions {
+  /* border:2px solid pink; */
+  padding: 0 10px;
+}
+.sortOptions label {
+  margin: 0 10px;
+}
+
+@media (max-width: 280px) {
+  .sortOptions label {
+    margin: 0 4px;
+  }
+}
+.cartText {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  /* border:2px solid white; */
+  /* width:200px; */
+}
+.emptyWishlistHeading{
+  font-size: 1.5rem;
+  color:#5a189a;
+  font-weight: 600;
+}
+.pas{
+  height: 35px;
+  width: 238px;
+  background-color: #5a189a;
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  position: relative;
+  bottom: 21px;
+  right: 7px;
+  border:none;
+}
+#wishlist {
+  /* color: #808080; */
+  position: relative;
+  left: 214px;
+  bottom: 260px;
+}
+ 
+.add-to-cart {
+  width: 100%;
+}
+.flterbar{
+  width:220px;
+  height: 500px;
+  background-color: #dfdddd;
+  /* display: none; */
+  /* background-color: skyblue; */
+}
+.flterbar.open {
+  display: block; /* Display the filter bar when the 'open' class is present */
+}
+.imcontainer{
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width:80%;
+}
+.fullContainer{
+  /* border:2px solid purple; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+.filterHeadingContainer{
+  display: flex;
+  justify-content:space-around;
+  font-size: 1.5rem;
+
+}
+ .filterHeading{
+  /* color:red; */
+  margin:1rem 1.3rem;
+  font-size: 18px;
+ }
+ .sortOptions,label{
+  /* color: red; */
+  margin: 1rem;
+  font-size: 14px;
+  
+ }
+  
+  .ratinglabel{
+     padding: 1rem; 
+  }
+  .ratinglabel input{
+    margin:0.5rem 0.3rem;
+  }
+   #reting{
+    color:var(--starcolor);
+   }
+   .sortLabel input{
+    margin:0.5rem 0.3rem;
+    
+    }
+    .categoryLabel input{
+      margin:0.5rem 1rem;
+    }
+    .displayNot{
+      display: none;
+      background-color: none;
+      border:none;
+    }
+    .flterbar.open {
+      display: block; /* Display the filter bar when the 'open' class is present */
+    }
+    @media  (max-width:430px) {
+     .displayNot{
+      display: block;
+     } 
+     .flterbar{
+      display: none;
+     }
+     .flterbar.open{
+     z-index: 1;
+     }
+     .priceContainer{
+      z-index: 0.3;
+     }
+    }
+   
