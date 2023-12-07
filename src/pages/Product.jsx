@@ -181,7 +181,7 @@ export default function Product({searchQuery}) {
                 1 <i className="fa-solid fa-star" id="reting"></i> and above
               </label><br />
             </div>
-            <h4 className="filterHeading">Sort by Rating</h4>
+            <h4 className="filterHeading">Sort by Categor</h4>
              <label className="categoryLabel">
               <input type="checkbox" value="men"  checked={selectedCategories.includes("men")}
             onChange={() => handleCategoryCheckboxChange("men")} ></input>Men
