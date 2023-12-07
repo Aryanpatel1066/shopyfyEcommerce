@@ -35,6 +35,8 @@ An Ecommerce website for various stylish clothes
 ![e4](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/e6fc8198-bcdc-44b5-877c-afcc0a69dbd3)
 
 ### wishlist page
+![e5](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/5ce77d08-280d-4b35-b5eb-fde012939d7c)
+
 ### Login page
 ### Error page
 
