@@ -20,3 +20,16 @@ An Ecommerce website for various stylish clothes
 * Login Page
 * Error Page
 * Responsive UI
+
+## Images
+### Home page
+
+### Product Listing page
+### single Product
+### cart page
+### wishlist page
+### Login page
+### Error page
+
+## Hosted on vercel
+https://shopyfy-ecommerce.vercel.app/
