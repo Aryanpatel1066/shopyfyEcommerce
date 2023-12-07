@@ -38,6 +38,8 @@ An Ecommerce website for various stylish clothes
 ![e5](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/5ce77d08-280d-4b35-b5eb-fde012939d7c)
 
 ### Login page
+![e6](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/b07497b8-71cb-4f7e-a9b9-ac1e2b31c1b5)
+
 ### Error page
 
 ## Hosted on vercel
