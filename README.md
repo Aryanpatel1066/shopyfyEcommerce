@@ -11,9 +11,9 @@ An Ecommerce website for various stylish clothes
 * Product Listing Page
 * Single Product Page
 * various Filters
- * Sort By Rating
- * Sort By Category
- * Sort By Price
+   * Sort By Rating
+   * Sort By Category
+   * Sort By Price
 * Wishlist Management
 * Cart Management
 * Loading and alerts
