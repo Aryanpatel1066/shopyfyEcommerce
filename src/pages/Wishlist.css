@@ -12,3 +12,17 @@
 }
 #wishlist{
  }
+ @media  (max-width:440px) {
+   .wishlistHeading{
+      margin-left:40px;
+   }
+ }
+ @media  (max-width:316px) {
+    .wishlistCardContainer{
+      left:20%;
+    }
+    .wishlistHeading{
+      margin-left: 20px;
+    }
+     
+ }

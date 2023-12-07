@@ -10,6 +10,16 @@
 .details {
   /* border:2px solid purple; */
   padding: 4px;
+  /* max-width: 170px; */
+  width:auto;
+}
+.bold{
+  color:black;
+}
+@media  (max-width:334px) {
+  #wishlist{
+    left:130px;
+  }
 }
 .bold {
   font-weight: bold;
@@ -22,6 +32,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top:6rem;
+  /* border:2px solid pink; */
+  width: 100%;
+}
+@media  (max-width:334px) {
+  .outerProductContainer{
+    width:160px;
+  }
 }
 .details i {
   color: #5a189a;
@@ -40,6 +58,9 @@
   
   animation: loader 1s infinite;
 }
+ /* .outerProductContainer{
+  border:2px solid red;
+ } */
 @keyframes  loader {
   100%{
   transform: rotate(360deg);

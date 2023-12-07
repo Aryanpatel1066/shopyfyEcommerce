@@ -116,17 +116,29 @@
   font-size: 1.1rem;
   font-weight: 500;
 }
-.loader {
-  width: 200px;
-  height: 200px;
-  /* background-color: black; */
-  border: 10px solid #ddd;
+/* .loader {
+  width: 10vw;
+  height: 10vw;
+   border: 10px solid #ddd;
   border-radius: 50%;
   border-top: 10px solid #5a189a;
 
   animation: loader 1s infinite;
+} */
+.loade{
+  width:200px;height: 200px;
+  border:10px solid #ddd;
+  border-radius: 50%;
+  border-top:10px solid #5a189a;
+  animation:loade 1s infinite;
 }
-@keyframes loader {
+/* @media  (max-width:1000px) {
+  .loader{
+    width:150px;
+    height: 150px;
+  }
+} */
+@keyframes loade {
   100% {
     transform: rotate(360deg);
   }

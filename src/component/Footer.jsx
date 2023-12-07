@@ -33,8 +33,8 @@ export default function Footer() {
                 <i className="fa-solid fa-envelope fa-bounce fa-lg"></i>
               </span>
               <span className="icon-descrip">
-                <a className="icon-link" href="mailto:abpatel1249@gmail.com">
-                  abpatel1249@gmail.com
+                <a className="icon-link" href="mailto:aryanpatel1248@gmail.com">
+                  aryanpatel1248@gmail.com
                 </a>
               </span>
             </div>

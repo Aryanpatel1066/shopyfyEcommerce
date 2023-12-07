@@ -198,7 +198,7 @@ export default function Product({searchQuery}) {
               </label><br />
 
           </div>
-          {loading && <div className="loader"></div>}
+          {loading &&  <div><div className="loade"></div></div>}
           <div className="imcontainer">
             {filterAndSortProducts().map((product) => (
               <ProductCard

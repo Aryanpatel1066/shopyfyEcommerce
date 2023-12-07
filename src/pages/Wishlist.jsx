@@ -70,7 +70,7 @@ export default function Wishlist() {
         <div className="wishlistCardContainer">
           {
             wishlist.map((item)=>(
-               <div className="outerProductContainer">
+               <div className="outerProductContainer pl">
               <img className="productImg" src={item.image} alt={item.title} />
               <i   onClick={()=>handeleDelete(item.id)}id="wishlist" style={{color:"red"}} className="fa-solid fa-heart fa-xl"></i>
               <ToastContainer/>

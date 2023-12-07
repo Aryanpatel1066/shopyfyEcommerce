@@ -76,13 +76,14 @@ export default function Header() {
         />
         {/* <div className="flex"> */}
         <NavLink className="links l2" to="/product">
-          <i className="fa-solid fa-bag-shopping fa-xl"></i>
+          <i className="fa-solid fa-bag-shopping fa-xl"></i> 
         </NavLink>
         <NavLink className="links l2" to="/cart">
-          <i className="fa-solid fa-cart-shopping fa-xl"></i>
+          <i className="fa-solid fa-cart-shopping fa-xl"></i><sup>{cart.length}</sup>
         </NavLink>
         <NavLink className="links l2" to="/wishlist">
           <i className="fa-solid fa-heart fa-xl"></i>
+          <sup>{wishlist.length}</sup>
         </NavLink>
         <NavLink className="links l2" to="/login">
           <i className="fa-solid fa-user fa-xl"></i>
