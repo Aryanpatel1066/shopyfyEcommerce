@@ -24,6 +24,9 @@ An Ecommerce website for various stylish clothes
 ## Images
 
 ### Home page:
+
+![e1](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/da027142-ff41-412e-b5e1-a8308efc72c7)
+
  
 ### Product Listing page:
 ![e2](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/35831356-05a1-4f9e-aa78-4fbe1660d2cf)
