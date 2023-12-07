@@ -22,25 +22,27 @@ An Ecommerce website for various stylish clothes
 * Responsive UI
 
 ## Images
-### Home page
+<br>
+### Home page:
 ![e1](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/9663143d-9008-4c99-8e09-f211f5b2aab2)
 
-### Product Listing page
+### Product Listing page:
 ![e2](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/35831356-05a1-4f9e-aa78-4fbe1660d2cf)
 
 ### single Product
 ![e3](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/8a9f1b6a-daa2-4b29-8775-898137d9eb87)
 
-### cart page
+### cart page:
 ![e4](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/e6fc8198-bcdc-44b5-877c-afcc0a69dbd3)
 
-### wishlist page
+### wishlist page:
 ![e5](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/5ce77d08-280d-4b35-b5eb-fde012939d7c)
 
-### Login page
+### Login page:
 ![e6](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/b07497b8-71cb-4f7e-a9b9-ac1e2b31c1b5)
 
-### Error page
+### Error page:
+![e7](https://github.com/Aryanpatel1066/shopyfyEcommerce/assets/112760422/76fdac36-fd88-4e8c-9c8c-0a941180c28c)
 
 ## Hosted on vercel
 https://shopyfy-ecommerce.vercel.app/
